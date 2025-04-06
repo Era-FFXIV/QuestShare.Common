@@ -19,6 +19,7 @@ namespace QuestShare.Common
         {
             public required string ShareCode { get; set; }
             public required string OwnerCharacterId { get; set; }
+            public string TargetCharacterId { get; set; } = "";
             public int ActiveQuestId { get; set; }
             public byte ActiveQuestStep { get; set; }
             public bool IsValid { get; set; } = true;
